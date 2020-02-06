@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{%   block content  %}
+<p> Hier sind meine Posts </p>
+
+{% for post in posts %}
+<li style = "color: red">{{post}}</li>
+{% endfor %}
+{%   endblock content %}
